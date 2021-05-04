@@ -1,0 +1,6 @@
+Motor_Bike = 2000
+while Motor_Bike > 1000:
+  Motor_Bike = Motor_Bike * 0.9
+  print("With a 10% loss, the new cost of the Motor Bike is","£",round(Motor_Bike,2),"each year")
+else:
+  print("The value is now below 1000")

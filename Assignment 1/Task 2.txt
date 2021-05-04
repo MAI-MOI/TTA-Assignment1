@@ -1,0 +1,13 @@
+import random
+Fav_Number = random.randint(1,100)
+User_Name = input("What is your name?")
+print("Hello" + " " + User_Name "," + " What is your favourite number between 1 and 100")
+Fav_Number1 = (input("Enter your first favourite number"))
+print(Fav_Number1)
+print(User_Name + ","" " +"Did you know that " + Fav_Number1 + " was used in ancient times as a hunger signal")
+Fav_Number2 = (input("Enter your second favourite number"))
+print(Fav_Number2)
+print("Did you know that " + Fav_Number2 + " was used in ancient times to signify the house with the wisest of women")
+Fav_Number3 = (input("Enter your third favourite number"))
+print(Fav_Number3)
+print("Did you know that " + Fav_Number3 + " was used in ancient times to show the house with the bravest of men")

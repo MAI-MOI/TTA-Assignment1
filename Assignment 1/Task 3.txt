@@ -1,0 +1,4 @@
+print("Hello, Welcome")
+user_input = input("Please enter your favourite starter,main course and dessert")
+user_input1 = input("Please enter your favourite drink")
+print("Your favourite meal is " + user_input + " " + "with a glass of " + user_input1)

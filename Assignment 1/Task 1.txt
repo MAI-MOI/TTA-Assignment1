@@ -1,0 +1,13 @@
+import random #This line of code invokes the random library
+R_No = random.randint(1,10) #This line assigns a variable to the random values
+User_Name = input("What is your name?") #This line asks for a User's name
+print("Hello" + " " + User_Name + " Can you guess a number between 1 and 10") #This line displays the values entered
+R_Guess = int(input("Guess a number between 1 and 10")) #This line converts the input string to an integer & asks the user to guess a random number  
+print(R_Guess)
+print("The random number is ",R_No)
+if R_Guess == R_No :
+	print("Hello " + User_Name + " your guess " + "is correct")
+else:
+	print("Hello " + User_Name + " your guess " + "is incorrect")
+
+
